@@ -1,0 +1,663 @@
+@charset 'utf-8';
+/* Main Style */
+html , body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+}
+/* Navbar Style */
+.top-nav{
+    background-color: #0A1F44;
+}
+.danger-color{
+    color: #E01705;
+}
+.top-nav .topnav-text,
+footer .second-row{
+    font-size: 11px;
+    line-height: 16px;
+   margin-right: -500px;
+}
+.topnav-text a,
+footer .second-row a{
+    text-decoration-line: underline;
+    color: #fff;
+}
+
+.navbar-expand-lg{
+    background-color: #fff !important;  /*#A5C926*/
+}
+.navbar-expand-lg .navbar-brand{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.navbar-nav{
+    padding-left: 240px;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 12px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #111;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.footer-links:hover{
+    text-decoration-line: underline;
+    transition: all 0.5s ease;
+}
+
+button .navbar-toggler{
+  float: right !important;
+  justify-content: right !important;
+  align-content: flex-end !important;
+  position: relative;
+
+}
+
+
+/* Banner Style */
+.banner .jumbotron{
+    background-image: url('/images/img-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 36rem;
+    width: 100%;
+    background-size: 28% 68%;
+    background-position: center;
+    background-position-x: 35rem;
+    background-color: #fff;
+}
+.features h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.features .jumbotron{
+    background-image: url('/images/img-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+    background-size: 30% 60%;
+    background-position: center;
+    background-position-y: 16rem;
+    background-color: #f8f8f8;
+}
+.about .jumbotron{
+    background-image: url('/images/img-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 36rem;
+    width: 100%;
+    background-size: 30% 60%;
+    background-position: center;
+    background-position-x: 100px;
+    
+    background-color: #fff;
+}
+
+.white-bg{
+    background-color: #fff !important;
+}
+
+.banner .jumbotron #content{
+    padding-top : 80px;
+}
+.banner .jumbotron .title{
+    color: #A5C926;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 0px 0px 15px 0px;
+}
+.banner .jumbotron .container{
+    background-color: transparent;
+    width: 600px;
+    height: 300px;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+.banner .jumbotron #content{
+    margin-left: -250px;
+    margin-top: -40px;
+}
+.banner .jumbotron #content h1{
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    line-height: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.banner .jumbotron #content hr{
+    width: 7.5%;
+    border : 3px solid #fff;
+    margin: 25px auto;
+}
+.banner .jumbotron #content p,
+.features p,
+.about p,
+.testimonials p,
+.pricing p,
+.FAQ p,
+.offer p{
+    font-style: normal;
+    font-size: 14px;
+}
+.banner .jumbotron #content .btn-success,
+.side-to-side-sections .btn-success,
+.subscribe .btn-success,
+.gallery .btn-success,
+.delivery-info .btn-success,
+.side-to-side-contact .btn-success{
+    background-color: #E01705;
+    padding: 12px 27px;
+    border: none;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.topnav-text .btn-success{
+    background-color: #E01705;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    padding: 10px 18px;
+}
+.banner .premium{
+    background-color: #0A1F44 !important;
+}
+.banner h1{
+    font-weight: bolder !important;
+}
+.banner .jumbotron #content .btn-success:hover,
+.card-section .teddy-bear button:hover,
+.card-section .wooden-toy button:hover,
+.video-section a:hover,
+.side-to-side-sections .btn-success:hover,
+.subscribe .btn-success:hover,
+.gallery .btn-success:hover,
+.gallery img:hover,
+.delivery-info .btn-success:hover,
+.side-to-side-contact .btn-success:hover{
+    box-shadow: 0px 1px 4px rgb(165, 165, 165);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.video-section a:hover{
+    background: #A5C926;
+}
+.grey-bg{
+ background-color: #F8F8F8;
+ width: 100%;
+}
+.card-section .teddy-bear,
+.card-section .wooden-toy{
+    background-color: #FFC12C;
+    width: 580px;
+    height: 80px;
+    margin-top: 80px;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px 5px;
+    flex-basis: 10px;
+}
+.card-section .wooden-toy{
+    background-color: #FB416B;
+}
+.card-section .teddy-bear img,
+.card-section .wooden-toy img{
+    transform: scale(0.37);
+    margin-top: -250px;
+    margin-left: -170px;
+}
+.card-section .wooden-toy img{
+    margin-left: 170px;
+}
+.card-section .card{
+    height: 200px;
+}
+.card-section .teddy-bear .card-body{
+    margin-top: -320px;
+    margin-left: 300px;
+    font-family: 'Varela Round', sans-serif;
+}
+.card-section .wooden-toy .card-body{
+    margin-top: -320px;
+    margin-left: 100px;
+    font-family: 'Varela Round', sans-serif;
+}
+.card-section .teddy-bear .card-title,
+.card-section .wooden-toy .card-title{
+    font-size: 28px;
+    word-spacing: 1px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.card-section .teddy-bear button,
+.card-section .wooden-toy button{
+    background-color: #fff;
+    color: #111;
+    height: 40px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 24px;
+    border: none;
+}
+.card-section .wooden-toy button{
+    margin-left: 60px;
+}
+
+.shop-toys header h3{
+    font-size: 28px;
+    line-height: 28px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+}
+.shop-toys header a,
+.about-banner .more-about-us a,
+.responsive-section a{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.shop-toys header a:hover,
+.responsive-section a:hover,
+.about-banner .more-about-us a:hover{
+    border-bottom-color: #A5C926;
+}
+
+
+.about-banner p,
+.features p,
+.about p,
+.testimonials p,
+.pricing p,
+.FAQ p,
+.offer p{
+    color: #111;
+}
+.about-banner-image img{
+    border-radius: 15px !important;  
+}
+.text-e5grey{
+    color: #e5e5e5;
+}
+.shop-toys .header-divider .header-greyline,
+.side-to-side-sections .header-greyline,
+.responsive-section .header-greyline,
+footer .header-greyline{
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    background-color: #e5e5e5;
+}
+footer .header-greyline{
+    height: 1px;
+    background-color: #F8F8F8;
+    margin-top: -40px;
+    opacity: 0.3;
+}
+.side-to-side-sections .header-greyline{
+    background-color: #F8F8F8;
+}
+header .container .upper-breadcrum,
+.side-to-side-contact input[type="text"],
+.side-to-side-contact input[type="email"],
+.side-to-side-contact textarea{
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    height: 25px;
+    margin-top: 0px;
+    padding-right: 20px; padding-left: 20px;
+    padding-top: 20px;   padding-bottom: 20px;
+    border-width: 2px;
+    font-size: 10px;
+}
+.side-to-side-contact input[type="text"],
+.side-to-side-contact input[type="email"],
+.side-to-side-contact textarea{
+    border-width: 3px;
+    height: 30px;
+    width: 100%;
+    border-radius: 24px;
+}
+.side-to-side-contact input[type="text"]:focus,
+.side-to-side-contact input[type="email"]:focus,
+.side-to-side-contact textarea:focus{
+    background-color: #fff;
+    border: none;
+}
+
+
+.contact-side-section{
+    padding-left: 100px;
+}
+.features i{
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #E01705;
+  width: 40px; height: 40px;
+  padding: 11px 11px;
+  transition: all 0.3s ease;
+}
+.features .fa-mobile .fa-map-marker{
+    padding: 15px 15px;
+}
+.contact-side-section .contact-side i{
+  border-radius: 50%;
+  background-color: #2AA3F0;
+  border: none;
+  width: 40px; height: 40px;
+  padding: 14px 14px;
+}
+.contact-side-section .contact-side i .fa-facebook-square{
+    background-color: #3B5998;
+}
+.contact-side-section .contact-side i .fa-instagram{
+    background-color: #FB416B;
+}
+.contact-side-section .contact-side i .fa-pinterest{
+    background-color: #BD081C;
+}
+.contact-side-section .contact-side i .fa-youtube{
+    background-color: #FC0D1C;
+}
+.features i:hover{
+   background-color: #E01705;
+   color: #fff;
+}
+
+
+.contact-side-section .contact-side i:hover{
+   transform: scale(1.1);
+} 
+.side-to-side-contact textarea{
+    height: 200px;
+}
+
+
+header .container .upper-breadcrum .d-flex{
+    margin-top: -15px;
+    font-size: 12px;
+}
+.breadcrum-section .container{
+    padding-top: 50px
+}
+header .upper-breadcrum .home:hover{
+   color: #999;
+}
+.shop-toys .toys-type{
+    border: none;
+    text-decoration: none;
+}
+.shop-toys .toys-type .inactive{
+    color: #111;
+}
+.shop-toys .toys-type .inactive:hover{
+    text-decoration-line: underline;
+    color: #111;
+}
+.shop-toys .toys-type .active{
+    color: #fff;
+    background-color: #A5C926;
+    border-radius: 24px;
+    height: 8px;
+    padding: 10px 25px;
+}
+.shop-toys .toys-type .active:hover{
+    text-decoration-line: none;
+}
+.shop-toys .header-divider .header-greenline,
+.side-to-side-sections .header-greenline,
+.responsive-section .header-greenline{
+    width: 136px;
+    height: 100%;
+    background-color: #A5C926;
+}
+.side-to-side-sections .header-greenline,
+.responsive-section .header-greenline{
+    width: 80px;
+}
+.text-grey{
+    color: #999;
+}
+
+.shop-toys .card-shop-toys{
+    margin-top: 50px;
+}
+.card-shop-toys .card{
+    border: none;
+    box-shadow: 1px 2px 0px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.card-shop-toys .card:hover{
+    box-shadow: 1px 0px 1px 1px rgba(19, 19, 19, 0.15);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.card-shop-toys img{
+    transform: scale(0.6);
+}
+.card-shop-toys h5{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111;
+}
+.card-shop-toys a:hover{
+    text-decoration-line: none;
+}
+.card-shop-toys button{
+    height: 24px;
+    padding: 2px 12px;
+    border-radius: 16px;
+    background-color: #a5c926;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.card-shop-toys button:hover{
+    background-color: #A5C926;
+}
+
+.video-section{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.video-section .jumbotron,
+.about .jumbotron,
+.side-to-side-sections .jumbotron,
+.insta-gallery .jumbotron,
+header .container .jumbotron,
+.delivery-info .jumbotron,
+.about-banner .jumbotron,
+.responsive-section .jumbotron,
+.contacts-info .jumbotron{
+    background: transparent;
+}
+.video-section .jumbotron{
+    height: 450px;
+}
+.responsive-section .jumbotron{
+    padding-top: 0px;
+}
+.video-section .jumbotron h6{
+    font-size: 13;
+}
+.video-section .jumbotron h2{
+    font-size: 35px;
+}
+.video-section .jumbotron p{
+    font-size: 14px;
+}
+.video-section a {
+    border-radius: 50%;
+    background: #A5C926;
+    border: none;
+    width: 60px; height: 60px;
+    padding: 15px 20px;
+}
+.about h6,
+.features h6,
+.about h6,
+.testimonials h6,
+.pricing h6,
+.FAQ h6,
+.offer h5{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #E01705;
+}
+.about h2,
+.features h2,
+.about h2,
+.testimonials h2,
+.pricing h2,
+.FAQ h2,
+.offer h2{
+    font-size: 38px;
+    line-height: 34px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.side-to-side-sections img{
+    transform: scale(0.5);
+    border-radius: 6%;
+    margin-top: -200px;
+    margin-left: 200px;
+    margin-right: -300px;
+}
+.responsive-section img{
+    transform: scale(0.5);
+    border-radius: 6%;
+    margin-left: -300px;
+    margin-top: -230px;
+}
+.subscribe .container,
+.delivery-info .container,
+.contacts-info .container{
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 0px rgba(0,0,0,0.15);
+}
+.delivery-info .container,
+.contacts-info .container{
+    height: auto;
+}
+.delivery-info .container .not-FAQ{
+    margin-left: 200px;
+    width: 580px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 20px 5px;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.15);
+    border: 1px solid #e5e5e5;
+}
+.text-green{
+    color: #A5C926;
+}
+.side-to-side-contact form[type="label"]{
+    width: 100%;
+    color: #111;
+    font-size: 12px;
+    font-weight: 600;
+}
+.side-to-side-contact .message{
+    padding-top: 30px;
+}
+.side-to-side-contact h3{
+    margin-top: 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.delivery-info .jumbotron h4{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.delivery-info .jumbotron h2{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.delivery-info .jumbotron p{
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.subscribe .form-control{
+    padding: 12px 27px !important;
+    border-radius: 24px !important;
+    font-size: 14px !important;
+    background-color: #F8F8F8;
+    border: 1px solid;
+    border-color: #999;
+    height: 45px;
+}
+.subscribe .form-control:focus{
+  border-color: #A5C926;
+  background-color: #fff;
+}
+.subscribe h4{
+    margin-left: -140px;
+}
+.subscribe i{
+    border-radius: 50%;
+    background: #A5C926;
+    border: none;
+    width: 60px; height: 60px;
+    padding: 13px 11px;
+}
+
+.gallery{
+    margin-top: -40px;
+}
+.gallery img{
+    transform: scale(1);
+    width: 100%;
+    border-radius: 6%;
+}
+.gallery .col-xl-2{
+    padding: 10px 10px;
+}
+footer{
+    margin-top: 150px;
+    background-color: #0A1F44;
+}
+
+
+
+
